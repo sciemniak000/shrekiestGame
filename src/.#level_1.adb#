@@ -1,0 +1,38 @@
+package body levels_package is
+
+   procedure level_1 is
+    
+   begin
+      Show_Message ("Use A key to move left, D to move right. Use W key to move up, S to move down. X to quit.");
+      data_centre.set_nof_lives(4);
+      data_centre.add_win_spot((320,320));
+      data_centre.add_win_spot((384,96));
+      data_centre.add_spawn((0,0));
+      data_centre.add_bullet(128,128,8,136,112,0,True,True);
+      data_centre.add_bullet(48,8,8,56,32,0,True,False);
+      data_centre.add_bullet(0,160,8,312,0,0,True,False);
+      data_centre.add_bullet(40,160,8,312,0,0,True,False);
+      data_centre.add_bullet(80,160,8,312,0,0,True,False);
+      data_centre.add_bullet(120,160,8,312,0,0,True,False);
+      data_centre.add_bullet(160,160,8,312,0,0,True,False);
+      data_centre.add_bullet(200,160,8,312,0,0,True,False);
+      data_centre.add_bullet(240,160,8,312,0,0,True,False);
+      data_centre.add_bullet(280,160,8,312,0,0,True,False);
+      ---start tasks
+   
+
+      
+
+      time_me_task.start;
+      check_bullets_task.start;
+      draw_canvas_task.start;
+      player_task.start;          
+        
+   
+   exception
+      when others =>
+         null;
+   
+      
+   end level_1;
+end levels_package;

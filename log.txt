@@ -1,0 +1,13 @@
+[2019-08-16 22:40:26]: Starting log...
+[2019-08-16 22:40:26]: Changing level to 2
+[2019-08-16 22:40:26]: Player Died, lives left: 9
+[2019-08-16 22:40:26]: Player Died, lives left: 8
+[2019-08-16 22:40:26]: Player Died, lives left: 7
+[2019-08-16 22:40:26]: Player Died, lives left: 6
+[2019-08-16 22:40:26]: Changing level to 3
+[2019-08-16 22:40:26]: Player Died, lives left: 5
+[2019-08-16 22:40:26]: Player Died, lives left: 4
+[2019-08-16 22:40:26]: Player Died, lives left: 3
+[2019-08-16 22:40:26]: Player Died, lives left: 2
+[2019-08-16 22:40:26]: Player passed the game.
+[2019-08-16 22:40:26]: Closing log file.
